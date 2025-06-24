@@ -9,8 +9,9 @@ function Card({ position, name, imageUrl, messages }) {
       padding: '16px',
       marginBottom: '12px',
       textAlign: 'center',
-      maxWidth: '250px',
-      boxShadow: '0 2px 6px rgba(0,0,0,0.1)'
+      maxWidth: '',
+      boxShadow: '0 2px 6px rgba(0,0,0,0.1)',
+      minWidth: '200px'
     }}>
       <h3> {position}.</h3>
       <img

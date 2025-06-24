@@ -14,7 +14,7 @@ function MainCon() {
   return (
     <div style={{ maxWidth: '300px', margin: '0 auto' }}>
       <h2>Leaderboard</h2>
-      <div>
+      <div className='kortit'>
         {leaderboardData.map(({ position, name, imageUrl, messages }) => (
           <Card
             key={position}
