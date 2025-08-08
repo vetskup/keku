@@ -94,7 +94,9 @@ function CountDown() {
         <p style={{ fontSize: '24px', color: 'blue', textAlign: 'center' }}>
           Onneksi tänään voi {todayShort}!
         </p>
+        
       )}
+      <h3>Tulossa pian: KeKuGaala🔥🔥😎😎</h3>
     </header>
   );
 }

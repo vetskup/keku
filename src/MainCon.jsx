@@ -2,13 +2,13 @@
 import Card from './Card';
 import aliceImg from './assets/tikkumies.png'
 import emoji from './assets/emoji.jpg'
-import supi from './assets/supi.png'
+import halikko from './assets/halikko.png'
 
 function MainCon() {
   const leaderboardData = [
     { position: 1, name: 'Alice', imageUrl: aliceImg, messages: 150 },
-    { position: 2, name: 'Bob', imageUrl: emoji, messages: 120 },
-    { position: 3, name: 'Charlie', imageUrl: supi, messages: 100 },
+    { position: 2, name: 'Bob', imageUrl: halikko, messages: 120 },
+    { position: 3, name: 'Charlie', imageUrl: emoji, messages: 100 },
   ];
 
   return (
